@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DialogWebView#1#Habib</string>
+    <string name="success_login_msg">Login successful</string>
+    <string name="error_login_msg">Please fill any empty fields</string>
+</resources>

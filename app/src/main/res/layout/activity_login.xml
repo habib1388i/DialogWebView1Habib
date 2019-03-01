@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="LOGIN"
+    android:textSize="50dp"
+    android:gravity="center"
+    android:textStyle="bold"/>
+
+    ---------------------------------------------------------------------
+    <!----> Beda widget <!---->
+    ---------------------------------------------------------------------
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edt_email_lgn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress">
+        </android.support.design.widget.TextInputEditText>
+    </android.support.design.widget.TextInputLayout>
+
+    ---------------------------------------------------------------------
+    <!----> Beda widget <!---->
+    ---------------------------------------------------------------------
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layout_gravity="center"
+        app:counterMaxLength="13">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edt_password_lgn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword">
+
+        </android.support.design.widget.TextInputEditText>
+    </android.support.design.widget.TextInputLayout>
+
+    ---------------------------------------------------------------------
+    <!----> Beda widget <!---->
+    ---------------------------------------------------------------------
+
+    <Button
+        android:id="@+id/btn_login_lgn"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        />
+
+    ---------------------------------------------------------------------
+    <!----> Beda widget <!---->
+    ---------------------------------------------------------------------
+
+
+
+</LinearLayout>
